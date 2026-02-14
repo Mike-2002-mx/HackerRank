@@ -6,7 +6,7 @@ import java.util.Scanner;
 // https://www.hackerrank.com/challenges/java-exception-handling/problem?isFullScreen=true
 
 public class JavaExceptionHandlingVic {
-    public static final MyCalculator my_calculator = new MyCalculator();
+    public static final My_Calculator my_calculator = new My_Calculator();
     public static final Scanner in = new Scanner(System.in);
     
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class JavaExceptionHandlingVic {
     }
 }
 
-class MyCalculator {
+class My_Calculator {
     long power(int n, int p) throws Exception{
         if(n < 0 || p < 0) {
             throw new Exception("n or p should not be negative.");

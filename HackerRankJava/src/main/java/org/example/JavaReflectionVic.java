@@ -11,7 +11,7 @@ public class JavaReflectionVic {
 
     public static void main(String[] args) {
         //Student student = new Student();
-        Method[] methods = Student.class.getDeclaredMethods();
+        Method[] methods = Student_.class.getDeclaredMethods();
 
         ArrayList<String> methodList = new ArrayList<>();
         for (Method m : methods) {
@@ -24,7 +24,7 @@ public class JavaReflectionVic {
     }
 }
 
-class Student {
+class Student_ {
 
     private String name;
     private String id;
